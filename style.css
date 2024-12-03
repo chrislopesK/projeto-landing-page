@@ -1,0 +1,75 @@
+*{ font-family: "inter";margin: 0px;}
+#logo{margin: 55px;}
+#secaosuperior{background-image: url(imagens/fundo.svg);color: aliceblue;}
+#titulosuperior{margin: 0px 0px 35px 190px  ;}
+#textosuperior{
+margin: 0px 0px 0px 190px;
+padding-bottom: 105px;}
+#secaoinformacional{
+background-color: #EAECE5;
+display: grid;
+grid-column: auto;
+grid-auto-flow: column;
+padding-top: 40px;
+padding-bottom: 40px;}
+.icone{
+align-items: center;
+margin-left: 115px;
+margin-right: 20px;}
+.texto{
+display: flex;
+align-items: center;}
+#secaovideo{
+display: grid;
+grid-column: auto;
+grid-auto-flow: column;
+justify-content: center;
+gap: 40px;}
+#video{margin: 50px 40px 55px 0px;}
+#titulovideo{margin: 50px 0px 40px 0px; color:#247BA0;}
+#textovideo{margin: 10px 0px 10px 0px;}
+#secaocarrossel{color: aliceblue;background-color: #247BA0;}
+#titulocarrossel{text-align: center;font-size: 30px;padding-top: 75px;}
+#secaocards{
+display: grid;
+grid-column: auto;
+grid-auto-flow: column;
+justify-content: center;
+gap: 20px;
+padding-top: 55px;
+padding-bottom: 75px;}
+#Samantha{display: none;}
+#SetaEsquerda{display: none;}
+#SetaDireita{margin-top: 300%;}
+.seta{cursor: pointer;}
+.seta:hover{
+transform: translateY(-7px);
+transition: 0.7s;}
+#formulario{text-align: center;}
+#tituloformulario{color: black;margin-top: 25px;padding-bottom: 35px;}
+input{
+margin-top: 25px;
+width: 280px;
+height: 38px;
+border: 0px;
+border-radius: 7px;
+padding-left: 15px;
+background-color: #EAECE5;}
+button{
+width: 265px;
+height: 37px;
+background-color: #247BA0;
+color: aliceblue;
+border-radius: 7px;
+margin-top: 20px;
+border: 0px;
+margin-bottom: 35px;
+font-weight: bolder;}
+button:hover{
+cursor: pointer;
+transform: translateY(-7px);
+transition: 0.5s;
+box-shadow: #1d546ca9 0px 15px 20px;
+transition-duration: 0.5s;
+
+}
